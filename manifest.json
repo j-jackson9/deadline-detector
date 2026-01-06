@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Deadline Detector",
+    "version": "1.0",
+    "description": "Detects deadlines on webpages and notifies the user.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "Deadline Detector.png",
+            "96": "Deadline Detector.png",
+            "128": "Deadline Detector.png"
+        }
+    },
+    "icons": {
+        "48": "Deadline Detector.png",
+        "96": "Deadline Detector.png",
+        "128": "Deadline Detector.png"
+    }
+}
