@@ -3,6 +3,14 @@
     "name": "Deadline Detector",
     "version": "1.0",
     "description": "Detects deadlines on webpages and notifies the user.",
+    "permissions": [
+        "contextMenus", 
+        "scripting",
+        "activeTab"
+    ],
+    "background": { 
+        "service_worker": "background.js" 
+    },
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
