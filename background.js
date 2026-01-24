@@ -21,14 +21,12 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
 
     let deadline = [foundDays , foundMonths, foundDaysNum, foundYears , foundTimes];
 */
-    console.log("Deadline: " + selectedText);
+console.log("Deadline: " + selectedText);
 
-    chrome.storage.local.set({deadline: selectedText}).then(() => {
-        console.log("Deadline: " + selectedText);
+chrome.storage.local.set({deadline: selectedText}).then(() => {
+    console.log("Deadline: " + selectedText);
     })
 });
-
-
 
 chrome.contextMenus.create({
     id: "extract-deadline-test",/*unique id for the menu item*/

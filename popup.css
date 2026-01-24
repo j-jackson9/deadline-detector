@@ -1,5 +1,83 @@
-.popup {
-    height: 300px;
-    width: 300px;
-    border-radius: 10px;
+body {
+    padding: 0;
+    margin: 0;
 }
+* {
+    font-family: "Noto Sans", sans-serif;
+    color: black;
+}
+.popup {
+    height: 276px;
+    width: 250px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.header {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.content {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button-options {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+   /* padding: 0 15px;*/
+    margin-top: 30px;
+    bottom: 0;
+}
+
+.copy {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: red;
+   /* border-radius: 10px;*/
+    height: 45px;
+    border: none;
+}
+
+.add-to-calendar {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #4285F4;
+   /* border-radius: 10px;*/
+    height: 45px;
+    border: none;
+}
+
+.copy:hover {
+    background-color: #cc0000;
+    cursor: pointer;
+}
+
+.add-to-calendar:hover {
+    background-color: #357ae8;
+    cursor: pointer;
+}
+
