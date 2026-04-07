@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Deadline Detector",
+    "name": "DueFlow",
     "version": "1.0",
     "description": "Detects deadlines on webpages and notifies the user.",
     "permissions": [
@@ -15,14 +15,14 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "48": "Deadline-Detector.png",
-            "96": "Deadline-Detector.png",
-            "128": "Deadline-Detector.png"
+            "48": "due-flow.png",
+            "96": "due-flow.png",
+            "128": "due-flow.png"
         }
     },
     "icons": {
-        "48": "Deadline-Detector.png",
-        "96": "Deadline-Detector.png",
-        "128": "Deadline-Detector.png"
+        "48": "due-flow.png",
+        "96": "due-flow.png",
+        "128": "due-flow.png"
     }
 }
