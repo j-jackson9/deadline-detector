@@ -8,9 +8,10 @@ chrome.storage.local.get(["deadline"]).then((result) => {
 let copyButton = document.querySelector(".copy").addEventListener("click", () => {
     chrome.storage.local.get(["deadline"]).then((result) => {
         navigator.clipboard.writeText(result.deadline);
-        alert("Copied to clipboard: " + result.deadline);
-        let copied = document.querySelector(".copy");
-        copied.textContent = "Copied";
+        setTimeout(() => {
+            let copied = document.querySelector(".copy");
+            copied.textContent = "Copied";
+        }, 400);
     });
 });
 
