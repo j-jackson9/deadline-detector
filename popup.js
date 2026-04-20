@@ -1,6 +1,6 @@
 chrome.storage.local.get(["deadline"]).then((result) => {
     console.log(result.deadline);
-    let popUp = document.querySelector(".content span");
+    let popUp = document.querySelector(".content .deadline-date");
     popUp.textContent = result.deadline;
 });
 

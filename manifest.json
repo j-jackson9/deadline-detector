@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "DueFlow",
     "version": "1.0",
-    "description": "Detects deadlines on webpages and notifies the user.",
+    "description": "DueFlow lets the user select deadlines and/or dates and adds them to their google calendar.",
     "permissions": [
         "contextMenus", 
         "scripting",
