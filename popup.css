@@ -62,7 +62,16 @@ img {
     justify-content: center;
     font-size: 8.5px;
 }
+.countdown {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
 
+.countdown span {
+    font-size: 25px;
+    
+}
 
 /* Buttons */
 .button-options {
