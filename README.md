@@ -17,7 +17,7 @@ A lightweight Chrome extension that lets users highlight text on any webpage, ex
 ## 🧠 How It Works
 
 1. User highlights text on a webpage
-2. Extension attempts to extract a date from the selected text
+2. Extension attempts to extract a date from the selected text(look for "Extract Deadline")
 3. The extracted date is displayed in a simplified format
 4. User can:
 
