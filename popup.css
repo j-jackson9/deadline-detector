@@ -70,7 +70,6 @@ img {
 
 .countdown span {
     font-size: 25px;
-    
 }
 
 /* Buttons */
@@ -93,7 +92,7 @@ button {
     transition: all 0.2s ease;
 }
 
-/* Primary */
+/* Copy button */
 .copy {
     background-color: rgb(29, 214, 5);
     color: white;
@@ -107,7 +106,7 @@ button {
     background-color: rgb(25, 179, 4);
 }
 
-/* Secondary */
+/* Add-to-calendar-button */
 .add-to-calendar {
     background-color: #1976d2;
     color: white;
