@@ -64,3 +64,10 @@ This project demonstrates:
 * Chrome extension development basics
 * Simple UI interaction workflows
 
+## Privacy Policy
+
+* DueFlow does not collect, store, or share personal information.
+
+* The extension processes selected text locally within the user's browser to help create Google Calendar events.
+
+* No user data is transmitted to external servers.

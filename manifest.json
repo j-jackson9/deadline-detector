@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "DueFlow",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Select dates or deadlines on any webpage and quickly add them to Google Calendar.",
     "permissions": [
         "contextMenus", 
