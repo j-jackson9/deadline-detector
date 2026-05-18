@@ -10,8 +10,8 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
 });
 
 chrome.contextMenus.create({
-    id: "extract-deadline",/*unique id for the menu item*/
-    title: "Extract Deadline",/*title of the menu item*/
-    contexts:["selection"], /*contextType*/
+    id: "extract-deadline",
+    title: "Extract Deadline",
+    contexts:["selection"], 
 });
 
