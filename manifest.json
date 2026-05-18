@@ -5,7 +5,6 @@
     "description": "Select dates or deadlines on any webpage and quickly add them to Google Calendar.",
     "permissions": [
         "contextMenus", 
-        "scripting",
         "activeTab",
         "storage"
         
